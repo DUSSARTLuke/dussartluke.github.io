@@ -7,205 +7,196 @@ and open the template in the editor.
 <html>
 
 <head>
-  <title>Mon Portfolio</title>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <!-- Thème Bootstrap -->
-  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
-    integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <title>Mon Portfolio</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Thème Bootstrap -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
 
-  <!-- Integration Fontawesome -->
-  <script src="https://kit.fontawesome.com/a19b0d8700.js" crossorigin="anonymous"></script>
-  <link href="https://kit-free.fontawesome.com/releases/latest/css/free-v4-shims.min.css" media="all" rel="stylesheet">
-  <link href="https://kit-free.fontawesome.com/releases/latest/css/free-v4-font-face.min.css" media="all"
-    rel="stylesheet">
-  <link href="https://kit-free.fontawesome.com/releases/latest/css/free.min.css" media="all" rel="stylesheet">
+    <!-- Integration Fontawesome -->
+    <script src="https://kit.fontawesome.com/a19b0d8700.js" crossorigin="anonymous"></script>
+    <link href="https://kit-free.fontawesome.com/releases/latest/css/free-v4-shims.min.css" media="all" rel="stylesheet">
+    <link href="https://kit-free.fontawesome.com/releases/latest/css/free-v4-font-face.min.css" media="all" rel="stylesheet">
+    <link href="https://kit-free.fontawesome.com/releases/latest/css/free.min.css" media="all" rel="stylesheet">
 
 </head>
 
 <body>
-  <nav class="navbar navbar-expand-sm bg-info navbar-dark fixed-top">
-    <a class="navbar-brand" href="../index.html">Portfolio</a>
-    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
-      aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+    <nav class="navbar navbar-expand-sm bg-info navbar-dark fixed-top">
+        <a class="navbar-brand" href="../index.html">Portfolio</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
       <span class="navbar-toggler-icon"></span>
     </button>
 
-    <div class="collapse navbar-collapse" id="navbarSupportedContent">
-      <ul class="navbar-nav mr-auto">
-        <li class="nav-item active">
-          <a class="nav-link" href="../pages/competences.html">Mes Compétences<span class="sr-only"></span></a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="#">Link</a>
-        </li>
-        <li class="nav-item dropdown">
-          <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown"
-            aria-haspopup="true" aria-expanded="false">
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav mr-auto">
+                <li class="nav-item active">
+                    <a class="nav-link" href="../pages/competences.html">Mes Compétences<span class="sr-only"></span></a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="../pages/experiencesPro.html">Mes expériences professionnelles</a>
+                </li>
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
             Mes Projets
           </a>
-          <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-            <a class="dropdown-item" href="#">En Stage</a>
-            <a class="dropdown-item" href="#">BTS</a>
-            <div class="dropdown-divider"></div>
-            <a class="dropdown-item" href="#">Personnels</a>
-          </div>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link disabled" href="#">Contact</a>
-        </li>
-      </ul>
+                    <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                        <a class="dropdown-item" href="#">En Stage</a>
+                        <a class="dropdown-item" href="../pages/projets_cours.html">BTS</a>
+                        <div class="dropdown-divider"></div>
+                        <a class="dropdown-item" href="#">Personnels</a>
+                    </div>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link disabled" href="#">Contact</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- Container -->
+    <div class="bg-dark">
+        <main class="container" role="main" style="padding-top: 100px; padding-bottom: 1.0px;">
+            <div class=".col-12 .col-sm-6 .col-lg-8">
+                <div class="jumbotron">
+                    <h2 class="display-5 text-danger">Mes qualités</h2>
+                    <hr class="my-4">
+                    <div class="container d-flex flex-column">
+                        <h5 class="fa fa-check-square text-primary"> Curieux </h5>
+                        <h5 class="fa fa-check-square text-primary"> Perfectionniste </h5>
+                        <h5 class="fa fa-check-square text-primary"> Esprit d'équipe </h5>
+                        <h5 class="fa fa-check-square text-primary"> Adaptabilité </h5>
+                    </div>
+                </div>
+            </div>
+        </main>
+
+        <main class="container" role="main">
+            <div class=".col-12 .col-sm-6 .col-lg-8">
+                <div class="jumbotron">
+                    <h2 class="display-5 text-danger fa fa-flag">Langues</h2>
+                    <hr class="my-4">
+                    <div class="container text-center">
+                        <div class="langue">Français</div>
+                        <div class="niveau">
+                            <span class="badge badge-dark">A1</span>
+                            <span class="badge badge-dark">A2</span>
+                            <span class="badge badge-dark">B1</span>
+                            <span class="badge badge-dark">B2</span>
+                            <span class="badge badge-dark">C1</span>
+                            <span class="badge badge-success">C2</span>
+                        </div>
+                    </div>
+                    <div class="container text-center">
+                        <div class="langue">Anglais</div>
+                        <div class="niveau">
+                            <span class="badge badge-dark">A1</span>
+                            <span class="badge badge-dark">A2</span>
+                            <span class="badge badge-dark">B1</span>
+                            <span class="badge badge-success">B2</span>
+                            <span class="badge badge-dark">C1</span>
+                            <span class="badge badge-dark">C2</span>
+                        </div>
+                    </div>
+                    <div class="container text-center">
+                        <div class="langue">Espagnol</div>
+                        <div class="niveau">
+                            <span class="badge badge-dark">A1</span>
+                            <span class="badge badge-dark">A2</span>
+                            <span class="badge badge-dark">B1</span>
+                            <span class="badge badge-dark">B2</span>
+                            <span class="badge badge-success">C1</span>
+                            <span class="badge badge-dark">C2</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </main>
+
+        <main class="container" role="main">
+            <div class=".col-12 .col-sm-6 .col-lg-8">
+                <div class="jumbotron">
+                    <h2 class="display-5 text-danger">Mes compétences générales</h2>
+                    <hr class="my-4">
+                    <div class="container text-center">
+                        <h5>Informatique</h5>
+                        <div class="border border-dark progress">
+                            <div class="progress-bar progress-bar-striped progress-bar-animated bg-danger" role="progressbar" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100" style="width: 70%"></div>
+                        </div>
+                    </div>
+                    <div class="container text-center">
+                        <h5>Mathématiques</h5>
+                        <div class="border border-dark progress">
+                            <div class="progress-bar progress-bar-striped progress-bar-animated bg-dark" role="progressbar" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100" style="width: 60%"></div>
+                        </div>
+                    </div>
+                    <div class="container text-center">
+                        <h5>Economique</h5>
+                        <div class="border border-dark progress">
+                            <div class="progress-bar progress-bar-striped progress-bar-animated" role="progressbar" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100" style="width: 50%"></div>
+                        </div>
+                    </div>
+                    <div class="container text-center">
+                        <h5>Informatique</h5>
+                        <div class="border border-dark progress">
+                            <div class="progress-bar progress-bar-striped progress-bar-animated " role="progressbar" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100" style="width: 75%"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </main>
+
+        <main class="container" role="main" style="padding-bottom: 50px;">
+            <div class=".col-12 .col-sm-6 .col-lg-8">
+                <div class="jumbotron">
+                    <h2 class="display-5 text-danger">Mes compétences informatiques</h2>
+                    <hr class="my-4">
+                    <div class="container text-center">
+                        <h5> Php, C#, Java (Développement objet)</h5>
+                        <div class="border border-dark progress">
+                            <div class="progress-bar progress-bar-striped progress-bar-animated bg-danger" role="progressbar" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100" style="width: 70%"></div>
+                        </div>
+                    </div>
+                    <div class="container text-center">
+                        <h5> Développement frond-end (HTML, CSS, JavaScript)> </h5>
+                        <div class="border border-dark progress">
+                            <div class="progress-bar progress-bar-striped progress-bar-animated" role="progressbar" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100" style="width: 55%"></div>
+                        </div>
+                    </div>
+                    <div class="container text-center">
+                        <h5> Connaissance environnement de développement </h5>
+                        <div class="border border-dark progress">
+                            <div class="progress-bar progress-bar-striped progress-bar-animated" role="progressbar" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100" style="width: 80%"></div>
+                        </div>
+                    </div>
+                    <div class="container text-center">
+                        <h5> Développement sur framework (Symfony, Laravel) </h5>
+                        <div class="border border-dark progress">
+                            <div class="progress-bar progress-bar-striped progress-bar-animated bg-danger" role="progressbar" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100" style="width: 80%"></div>
+                        </div>
+                    </div>
+                    <div class="container text-center">
+                        <h5> Développement sur Android </h5>
+                        <div class="border border-dark progress">
+                            <div class="progress-bar progress-bar-striped progress-bar-animated bg-success" role="progressbar" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100" style="width: 65%"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </main>
     </div>
-  </nav>
-
-  <!-- Container -->
-  <div class="bg-dark">
-    <main class="container" role="main" style="padding-top: 100px; padding-bottom: 50px;">
-      <div class=".col-12 .col-sm-6 .col-lg-8">
-        <div class="jumbotron">
-          <h2 class="display-5 text-danger">Mes qualités</h2>
-          <hr class="my-4">
-          <div class="container d-flex flex-column">
-            <h5  class="fa fa-check-square text-primary"> Curieux </h5>
-            <h5  class="fa fa-check-square text-primary"> Perfectionniste</h5>
-            <h5 class="fa fa-check-square text-primary"> Esprit d'équipe</h5>
-            <h5  class="fa fa-check-square text-primary"> Adaptabilité</h5>
-          </div>
+    <footer class="footer fixed-bottom bg-info">
+        <div class="text-center">
+            <a href="../pages/contact" class="text-white">Contact</a><br>
+            <a href="https://dussartluke.github.io/" target="_blank" class="text-white">Mon Portfolio</a>
         </div>
-      </div>
-    </main>
-
-    <main class="container" role="main">
-      <div class=".col-12 .col-sm-6 .col-lg-8">
-        <div class="jumbotron">
-          <h2 class="display-5 text-danger fa fa-flag">Langues</h2>
-          <hr class="my-4">
-          <div class="container text-center">
-            <div class="langue">Français</div>
-            <div class="niveau">
-              <span class="badge badge-dark">A1</span>
-              <span class="badge badge-dark">A2</span>
-              <span class="badge badge-dark">B1</span>
-              <span class="badge badge-dark">B2</span>
-              <span class="badge badge-dark">C1</span>
-              <span class="badge badge-success">C2</span>
-            </div>
-          </div>
-          <div class="container text-center">
-            <div class="langue">Anglais</div>
-            <div class="niveau">
-              <span class="badge badge-dark">A1</span>
-              <span class="badge badge-dark">A2</span>
-              <span class="badge badge-dark">B1</span>
-              <span class="badge badge-success">B2</span>
-              <span class="badge badge-dark">C1</span>
-              <span class="badge badge-dark">C2</span>
-            </div>
-          </div>
-          <div class="container text-center">
-            <div class="langue">Espagnol</div>
-            <div class="niveau">
-              <span class="badge badge-dark">A1</span>
-              <span class="badge badge-dark">A2</span>
-              <span class="badge badge-dark">B1</span>
-              <span class="badge badge-dark">B2</span>
-              <span class="badge badge-success">C1</span>
-              <span class="badge badge-dark">C2</span>
-            </div>
-          </div>
         </div>
-      </div>
-    </main>
-
-    <main class="container" role="main" style="padding-top: 100px; padding-bottom: 50px;">
-      <div class=".col-12 .col-sm-6 .col-lg-8">
-        <div class="jumbotron">
-          <h2 class="display-5 text-danger">Mes compétences générales</h2>
-          <hr class="my-4">
-          <div class="container text-center">
-            <h5>Informatique</h5>
-            <div class="border border-dark progress">
-              <div class="progress-bar progress-bar-striped progress-bar-animated" role="progressbar" aria-valuenow="75"
-                aria-valuemin="0" aria-valuemax="100" style="width: 75%"></div>
-            </div>
-          </div>
-          <div class="container text-center">
-            <h5>Mathématiques</h5>
-            <div class="border border-dark progress">
-              <div class="progress-bar progress-bar-striped progress-bar-animated" role="progressbar" aria-valuenow="75"
-                aria-valuemin="0" aria-valuemax="100" style="width: 75%"></div>
-            </div>
-          </div>
-          <div class="container text-center">
-            <h5>Informatique</h5>
-            <div class="border border-dark progress">
-              <div class="progress-bar progress-bar-striped progress-bar-animated" role="progressbar" aria-valuenow="75"
-                aria-valuemin="0" aria-valuemax="100" style="width: 75%"></div>
-            </div>
-          </div>
-          <div class="container text-center">
-            <h5>Informatique</h5>
-            <div class="border border-dark progress">
-              <div class="progress-bar progress-bar-striped progress-bar-animated" role="progressbar" aria-valuenow="75"
-                aria-valuemin="0" aria-valuemax="100" style="width: 75%"></div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </main>
-
-    <main class="container" role="main" style="padding-top: 100px; padding-bottom: 50px;">
-      <div class=".col-12 .col-sm-6 .col-lg-8">
-        <div class="jumbotron">
-          <h2 class="display-5 text-danger">Mes compétences informatiques</h2>
-          <hr class="my-4">
-          <div class="container text-center">
-            <h5>Informatique</h5>
-            <div class="border border-dark progress">
-              <div class="progress-bar progress-bar-striped progress-bar-animated" role="progressbar" aria-valuenow="75"
-                aria-valuemin="0" aria-valuemax="100" style="width: 75%"></div>
-            </div>
-          </div>
-          <div class="container text-center">
-            <h5>Mathématiques</h5>
-            <div class="border border-dark progress">
-              <div class="progress-bar progress-bar-striped progress-bar-animated" role="progressbar" aria-valuenow="75"
-                aria-valuemin="0" aria-valuemax="100" style="width: 75%"></div>
-            </div>
-          </div>
-          <div class="container text-center">
-            <h5>Informatique</h5>
-            <div class="border border-dark progress">
-              <div class="progress-bar progress-bar-striped progress-bar-animated" role="progressbar" aria-valuenow="75"
-                aria-valuemin="0" aria-valuemax="100" style="width: 75%"></div>
-            </div>
-          </div>
-          <div class="container text-center">
-            <h5>Informatique</h5>
-            <div class="border border-dark progress">
-              <div class="progress-bar progress-bar-striped progress-bar-animated" role="progressbar" aria-valuenow="75"
-                aria-valuemin="0" aria-valuemax="100" style="width: 75%"></div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </main>
-  </div>
-  <footer class="footer fixed-bottom bg-info">
-    <div class="text-center">
-      <a href="../pages/contact" class="text-white">Contact</a><br>
-      <a href="https://dussartluke.github.io/" target="_blank" class="text-white">Mon Portfolio</a>
-    </div>
-    </div>
-  </footer>
+    </footer>
 </body>
 
 <!-- Scripts -->
-<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
-  integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
-<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
-  integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
-<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"
-  integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
+<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
 
 </html>
