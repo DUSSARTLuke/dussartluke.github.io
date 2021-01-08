@@ -18,11 +18,53 @@ and open the template in the editor.
     <link href="https://kit-free.fontawesome.com/releases/latest/css/free-v4-shims.min.css" media="all" rel="stylesheet">
     <link href="https://kit-free.fontawesome.com/releases/latest/css/free-v4-font-face.min.css" media="all" rel="stylesheet">
     <link href="https://kit-free.fontawesome.com/releases/latest/css/free.min.css" media="all" rel="stylesheet">
+    <link rel="stylesheet" href="/css/images/style_sidebar.css" author="Daan Vankerkom">
 
 </head>
 
 <body>
-    <nav class="navbar navbar-expand-sm bg-info navbar-dark fixed-top">
+    <!-- Barre de navigation -->
+    <div class=" sidebar-container ">
+        <div class=" sidebar-logo ">
+            Home
+        </div>
+        <ul class=" sidebar-navigation ">
+            <li class=" header ">Navigation</li>
+            <li>
+                <a href=" ../index.html ">
+                    <i class=" fa fa-file-alt " aria-hidden=" true "></i> Home
+                </a>
+            </li>
+            <li>
+                <a href="../pages/experiencesPro.html">
+                    <i class="fa fa-list" aria-hidden="true"></i> Mes expériences
+                </a>
+            </li>
+            <li>
+                <a href=" ../pages/competences.html ">
+                    <i class=" fa fa-laptop-code " aria-hidden=" true "></i> Compétences
+                </a>
+            </li>
+            <li>
+                <a href=" ../pages/projets_cours.html ">
+                    <i class=" fa fa-list " aria-hidden=" true "></i> Projets
+                </a>
+            </li>
+            <li class=" header ">Résaux Sociaux</li>
+            <li>
+                <a href=" https://github.com/DUSSARTLuke ">
+                    <i class=" fa fa-github " aria-hidden=" true "></i> Github
+                </a>
+            </li>
+            <li>
+                <a href=" https://www.linkedin.com/in/luke-dussart/ ">
+                    <i class=" fa fa-linkedin " aria-hidden=" true "></i> Linkedin
+                </a>
+            </li>
+        </ul>
+    </div>
+    <!------------------>
+    <!--<nav class="navbar navbar-expand-sm bg-info navbar-dark fixed-top">
         <a class="navbar-brand" href="../index.html">Portfolio</a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
@@ -53,55 +95,58 @@ and open the template in the editor.
                 </li>
             </ul>
         </div>
-    </nav>
-    <div id="myCarousel" class="carousel slide border" data-ride="carousel">
-        <div class="carousel-inner">
-            <div class="carousel-item active img-fluid">
-                <img class="d-block w-100" src="../images/ihmcoach.png" alt="Leopard">
-                <div class="carousel-caption">
-                    <h5>Leopard</h5>
-                    <small>
-                        A black Panther is the melanistic color variant of any big cat species.
-                        Black Panthers in Asia and Africa are leopards (Panthera pardus).
-                    </small>
+    </nav>-->
+
+    <div class=" content-container ">
+        <div id="myCarousel" class="carousel slide border" data-ride="carousel">
+            <div class="carousel-inner">
+                <div class="carousel-item active img-fluid">
+                    <img class="d-block w-100" src="../images/ihmcoach.png" alt="Leopard">
+                    <div class="carousel-caption">
+                        <h5>Leopard</h5>
+                        <small>
+                            A black Panther is the melanistic color variant of any big cat species.
+                            Black Panthers in Asia and Africa are leopards (Panthera pardus).
+                        </small>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <img class="d-block w-100" src="../images/carousel-img-2.jpg" alt="Cat">
+                    <div class="carousel-caption">
+                        <h5>Black Cat</h5>
+                        <small>
+                            A black cat is a domestic cat with black fur that may be a mixed or specific breed
+                        </small>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <img class="d-block w-100" src="../images/carousel-img-3.jpg" alt="Lion">
+                    <div class="carousel-caption">
+                        <h5>Lion</h5>
+                        <small>
+                            The lion (Panthera leo) is a species in the cat family (Felidae).
+                            A muscular, deep-chested cat, it has a short, rounded head, a reduced neck and round ears
+                        </small>
+                    </div>
                 </div>
             </div>
-            <div class="carousel-item">
-                <img class="d-block w-100" src="../images/carousel-img-2.jpg" alt="Cat">
-                <div class="carousel-caption">
-                    <h5>Black Cat</h5>
-                    <small>
-                        A black cat is a domestic cat with black fur that may be a mixed or specific breed
-                    </small>
-                </div>
-            </div>
-            <div class="carousel-item">
-                <img class="d-block w-100" src="../images/carousel-img-3.jpg" alt="Lion">
-                <div class="carousel-caption">
-                    <h5>Lion</h5>
-                    <small>
-                        The lion (Panthera leo) is a species in the cat family (Felidae).
-                        A muscular, deep-chested cat, it has a short, rounded head, a reduced neck and round ears
-                    </small>
-                </div>
-            </div>
+            <a class="carousel-control-prev" href="#myCarousel" role="button" data-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="sr-only">Previous</span>
+            </a>
+            <a class="carousel-control-next" href="#myCarousel" role="button" data-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="sr-only">Next</span>
+            </a>
         </div>
-        <a class="carousel-control-prev" href="#myCarousel" role="button" data-slide="prev">
-            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-            <span class="sr-only">Previous</span>
-        </a>
-        <a class="carousel-control-next" href="#myCarousel" role="button" data-slide="next">
-            <span class="carousel-control-next-icon" aria-hidden="true"></span>
-            <span class="sr-only">Next</span>
-        </a>
+        <footer class="footer fixed-bottom bg-info">
+            <div class="text-center">
+                <a href="../pages/contact" class="text-white">Contact</a><br>
+                <a href="https://dussartluke.github.io/" target="_blank" class="text-white">Mon Portfolio</a>
+            </div>
+
+        </footer>
     </div>
-    <footer class="footer fixed-bottom bg-info">
-        <div class="text-center">
-            <a href="../pages/contact" class="text-white">Contact</a><br>
-            <a href="https://dussartluke.github.io/" target="_blank" class="text-white">Mon Portfolio</a>
-        </div>
-        </div>
-    </footer>
 </body>
 
 <!-- Scripts -->
