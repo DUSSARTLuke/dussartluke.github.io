@@ -5,6 +5,15 @@
     color: white;
 }
 
+body {
+    padding-top: 50px;
+}
+
+.cadreCV {
+    padding-bottom: 15px;
+    background: white;
+}
+
 
 /****************************************
 * Rubriques
